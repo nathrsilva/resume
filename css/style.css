@@ -11,6 +11,7 @@ a{
 
 
 .resume-header{
+    display: flex-direction:table-column;
     background-color: #11B37C;
     height: 300px;
     width: 100%;
@@ -18,6 +19,7 @@ a{
     padding-top: 50px;
     padding-left: 200px;
     padding-right: 200px;
+    box-sizing: border-box;
 }
 
 .resume-name{
@@ -36,4 +38,44 @@ a{
     width: 900px;
     justify-content:right;
     align-content: space-between;
+}
+
+.caixa1{
+    background-color: white;
+    width: 900px;
+    height: 300px;
+    display: flex;
+    
+   
+    
+}
+
+.contc1{
+    color: black;
+    width: 900px;
+}
+
+.itens{
+    border-top: 1px solid #e5e5e5;
+    list-style-type: none;
+    
+}
+
+.icons2{
+    background-color: #11B37C;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.skills{
+    color: #11B37C;
+
+}
+
+.caixa2{
+    background-color: white;
+    width: 900px;
+    height: 300px;
+    display: flex;
 }
